@@ -5,5 +5,6 @@ public class Main {
         phone1.getName();
         IMobilePhone phone2=factory.create("Samsung");
         phone2.getName();
+        ((Nokia)phone1).getPrice();  //низходящее приобразование для доступа к переменной getPrice
     }
 }
